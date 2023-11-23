@@ -43,6 +43,6 @@ int main() {
     pthread_mutex_destroy(&mutex);
     pthread_cond_destroy(&condition_variable);
     
-    sleep(2);
+    sleep(3);
     return 0;
 }
